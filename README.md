@@ -42,4 +42,15 @@ To reproduce our environment and run the code, please follow these steps.
 
 ---
 
-## 📂 Repository Structure
+
+
+## 💡 Future Work
+-   **Resolve KenLM Integration**: The most immediate next step would be to debug the beam search decoder integration. Successfully applying the trained KenLM could significantly reduce the WER.
+-   **Model Ensembling**: Combining the predictions from the top-performing models (e.g., Parakeet and Whisper) could yield further performance gains.
+
+
+
+
+
+
+
