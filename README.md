@@ -1,6 +1,6 @@
 # Kinyarwanda ASR: 3rd Place Solution 🏆
 
-This repository contains the code and methodology for the 3rd place winning solution in the **Zindi Digital Umuganda Kinyarwanda ASR Challenge**. The primary goal was to develop a high-accuracy Automatic Speech Recognition (ASR) model for the Kinyarwanda language.
+This repository contains the code and methodology for the 3rd place winning solution in the **Digital Umuganda Kinyarwanda ASR Challenge**. The primary goal was to develop a high-accuracy Automatic Speech Recognition (ASR) model for the Kinyarwanda language.
 
 ---
 
@@ -9,9 +9,10 @@ This repository contains the code and methodology for the 3rd place winning solu
 To achieve the best possible performance, we explored several state-of-the-art ASR architectures. Our approach was highly experimental, involving training and fine-tuning multiple models to compare their effectiveness on the Kinyarwanda dataset.
 
 ### Models Explored
-- **Whisper**: We fine-tuned various sizes of OpenAI's Whisper model, which provides a strong baseline for many languages.
+- **Whisper**: We fine-tuned various sizes of OpenAI's Whisper model, which provides a strong baseline for many languages (using the default tokenizer and a customized tokenizer)or Kinyarwanda).
 - **Conformer**: We experimented with Conformer-based architectures, known for their excellent ability to capture both local and global features in audio.
-- **Parakeet (Winning Model)**: After extensive evaluation, the **NVIDIA Parakeet (CTM)** model family delivered the lowest Word Error Rate (WER) and became the foundation of our final submission. The code and notebooks related to this model can be found in the `model_Parakeet/` directory.
+- **Parakeet (Winning Model)**: After extensive evaluation, the **NVIDIA Parakeet (CTM)** model family delivered the CombinedError = 0.4 × WER + 0.6 × CER
+Score = (1 – CombinedError) × 100, and became the foundation of our final submission. The code and notebooks related to this model can be found in the `model_Parakeet/` directory.
 
 ### Language Model Integration (Attempted)
 We also attempted to further improve the model's accuracy by incorporating a language model (LM) for post-processing.
