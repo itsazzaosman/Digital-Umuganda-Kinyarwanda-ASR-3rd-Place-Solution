@@ -1,7 +1,6 @@
 # Kinyarwanda ASR: 3rd Place Solution 🏆
 
-This repository contains the code and methodology for the 3rd place winning solution in the **Digital Umuganda Kinyarwanda ASR Challenge** [Kaggle competition](https://www.kaggle.com/competitions/kinyarwanda-automatic-speech-recognition-track-b). The primary goal was to develop a high-accuracy Automatic Speech Recognition (ASR) model for the Kinyarwanda language.
-
+This repository contains the code and methodology for the 3rd place winning solution in the **Digital Umuganda Kinyarwanda ASR Challenge** [Kaggle competition](https://www.kaggle.com/competitions/kinyarwanda-automatic-speech-recognition-track-b). The primary goal was to develop a high-accuracy Automatic Speech Recognition (ASR) model for the Kinyarwanda language using 1,000 hours of transcribed speech.
 ---
 
 ## 🚀 Methodology and Experiments
